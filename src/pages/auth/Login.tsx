@@ -17,8 +17,8 @@ const CoverSignIn: React.FC = () => {
   const navigate = useNavigate();
 
   const DUMMY_CREDENTIALS: FormValues = {
-    email: "babu.s@sirc.sa",
-    password: "Babu@123",
+    email: "admin",
+    password: "Admin@123",
   };
 
   const validation = useFormik<FormValues>({
